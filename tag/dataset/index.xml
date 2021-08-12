@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dataset | SIR-Smart Iris Recognition</title><link>https://hycasia.github.io/tag/dataset/</link><atom:link href="https://hycasia.github.io/tag/dataset/index.xml" rel="self" type="application/rss+xml"/><description>Dataset</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>https://hycasia.github.io/images/icon_hu42e11727b1bd363727a38d52796c9ff5_15822_512x512_fill_lanczos_center_2.png</url><title>Dataset</title><link>https://hycasia.github.io/tag/dataset/</link></image><item><title>CASIA-Iris-Degradation</title><link>https://hycasia.github.io/dataset/casia-iris-complex/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/dataset/casia-iris-complex/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Since the outbreak of the COVID-19 pandemic, iris recognition has been used increasingly as contactless and unaffected by face masks. Although less user cooperation is an urgent demand for existing systems, corresponding manually annotated databases could hardly be obtained. This work presents a large-scale database of near-infrared iris images named CASIA-Iris-Degradation Version 1.0 (DV1), which consists of 15 subsets of various degraded images, simulating less cooperative situations such as illumination, off-angle, occlusion, and nonideal eye state. A lot of open-source segmentation and recognition methods are compared comprehensively on the DV1 using multiple evaluations, and the best among them are exploited to conduct ablation studies on each subset. Experimental results show that even the best deep learning frameworks are not robust enough on the database, and further improvements are recommended for challenging factors such as half-open eyes, off-angle, and pupil dilation. Therefore, we publish the DV1 with manual annotations online to promote iris recognition.&lt;/p>
+&lt;h2 id="description-of-casia-iris-degradation">Description of CASIA-Iris-Degradation&lt;/h2>
+&lt;p>CASIA-Iris-Degradation contains 36,539 images from 255 Asian people. All images were collected under NIR illumination and two eyes were captured simultaneously. Details of the proposed database are shown in the table below.
+&lt;img src="./Statistics.png" alt="Details of the proposed database">&lt;/p>
+&lt;h3 id="setup-of-image-collection">Setup of image collection&lt;/h3>
+&lt;p>As shown in the figure below, we built a collection room using black-out cloth. The curtain on one side of the room can be opened and closed artificially to control the natural light.
+Inside, there were camera (A), light sources (B, C), volunteer (D), and four directional markers (1-4).
+Each volunteer was asked to sit down, put their chin on the holder (0.75 m from the camera), keep their head as still as possible, and move their eyes according to instructions.
+To simulate the off-angle situation, the subject was required to look along a set of directions indicated by four markers in the visual field, while in other cases look straight ahead (i.e., the midpoint of marker 1 and 4).
+&lt;img src="./newcx1camera.png" alt="environment and equipment">&lt;/p>
+&lt;h3 id="statistics-of-the-proposed-database">Statistics of the proposed database&lt;/h3>
+&lt;p>To simulate real image degradation, the proposed database is divided into four categories, and each of them is separated into three to five subsets as follows:&lt;/p>
+&lt;h4 id="illumination">Illumination&lt;/h4>
+&lt;p>The intensity of the VW light source was adjusted to four levels: Dark (0%), Weak (25%), Medium (50%), Strong (100%) to change the pupil size.
+In addition, images under natural light were also collected (with Dark level).
+Note that the intensity in other categories was set to the Medium level by default.&lt;/p>
+&lt;h4 id="off-angle">Off-angle&lt;/h4>
+&lt;p>There are four directions: (1) Left, (2) Upper left, (3) Upper right, (4) Right.
+The left and right are in the horizontal direction, while the upper left and right angles are both 45 degrees.&lt;/p>
+&lt;h4 id="nonideal-eye-state">Nonideal eye state&lt;/h4>
+&lt;p>Since it is difficult to keep eyes open all the time, we collected images of closed, squinted, and half-open eyes.
+Although most images of the former two classes have no effective iris region and are accompanied by blur, they can be used to train eye state detectors for fatigue driving detection or other relevant scenarios.&lt;/p>
+&lt;h4 id="occlusion">Occlusion&lt;/h4>
+&lt;p>For occlusion, volunteers were required to wear glasses, masks and using a hand to cover the mouth and nose. During this section, the NIR light source was randomly moved slightly to generate light spots. Meanwhile, some glasses also had stains on the surface to occlude the iris.
+An unexpected observation is that for some elderly volunteers, their eyelids droop naturally, resulting in severe occlusion, which should arouse more attention.&lt;/p>
+&lt;p>More samples and annotations are presented below.
+&lt;img src="./supp_images.png" alt="More samples">&lt;/p>
+&lt;h2 id="copyright-note-and-contacts">Copyright Note and Contacts&lt;/h2>
+&lt;p>The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the CASIA-Iris-Degradation database are reserved. Any person or organization is not permitted to distribute, publish, copy, or disseminate this database. In all documents and papers that report experimental results based on this database, our efforts in constructing the database should be acknowledged such as &amp;ldquo;Portions of the research in this paper use the CASIA-Iris-Degradation-V1.0 collected by the Chinese Academy of Sciences&amp;rsquo; Institute of Automation (CASIA)&amp;quot;.&lt;/p>
+&lt;p>To receive a copy of the database, a &lt;strong>non-student researcher&lt;/strong> must &lt;strong>manually sign&lt;/strong> the
+&lt;a href="./license_agreement.pdf">License Agreement&lt;/a> and agree to &lt;strong>observe the restrictions&lt;/strong>. The signed document should be &lt;strong>digitized&lt;/strong> and &lt;strong>sent through&lt;/strong> email to:
+&lt;a href="mailto://sir@cripac.ia.ac.cn">sir@cripac.ia.ac.cn&lt;/a>&lt;/p></description></item><item><title>An Evaluation Benchmark for High-throughput Iris Recognition at a Distance</title><link>https://hycasia.github.io/dataset/blurred_iris_benchmark/</link><pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/dataset/blurred_iris_benchmark/</guid><description>&lt;h2 id="1-introduction">&lt;strong>1. Introduction&lt;/strong>&lt;/h2>
+&lt;p>A key problem of iris recognition at a distance is that a large portion of captured iris images is nonideal because of narrow depth of field (DoF), noncooperative user movement, incongruous exposure time and so on. Current iris recognition systems usually filter out these low-quality images using strict criteria of image quality evaluation (IQA). However, this strategy inevitably leads to a waste of device capacity and low throughput. Therefore, a better and practical solution is to make the utmost of degraded iris images for personal identification. We announce the availability of a long-range captured dataset containing 3,756 iris images of various degradation factors from 98 subjects. An evaluation benchmark is built upon the dataset for a comparative study on preprocessing and recognition of NIR iris images in high-throughput scenarios. The datasets, manual annotations and evaluation toolkit are publicly available.&lt;/p>
+&lt;h2 id="2-descriptions-and-statistics-of-the-database">&lt;strong>2. Descriptions and Statistics of the Database&lt;/strong>&lt;/h2>
+&lt;h3 id="image-collection">&lt;strong>Image collection&lt;/strong>&lt;/h3>
+&lt;!-- &lt;iframe height=498 width=510 src="collection_glasses.mp4"> -->
+&lt;p>The schematic and setup of blur-varying iris image collection of this database at a distance are shown as following.&lt;/p>
+&lt;p>&lt;img src="./capture_setting.png" alt="Schematic and setup of NIR iris image collection at a distance and in less cooperative environments." title="Image Collection">&lt;/p>
+&lt;p>The next generation of CASIA-LR-Cam bundled with NIR illumination at a wavelength of 830 nm was employed as the capturing device. Its standoff distance is approximately 1.2 meters with a DoF of over 20 centimeters. The field of view (FoV) is approximately 20 degrees. The device was placed in an indoor environment under no extra lighting sources. During the process of image collection, the subjects were obliged to move freely in the restricted square area 1.0~1.4 meters away from the device. Specifically, they could casually step forward and backward, left and right.&lt;/p>
+&lt;p>While moving inside the restricted area, the subjects were guided by the indication signal on the GUI screen to look at different directions for approximately 30 seconds in a single session. Two separate sessions were launched in the daytime under the same conditions, and the interval was one week. If the subject was wearing glasses, he or she needed to take them off in either of the two sessions (&lt;code>play the video and see&lt;/code>).&lt;/p>
+&lt;blockquote>
+&lt;p>Session 1 With Glasses&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;video src="./collection_glasses.mp4" width="800px" height="600px" controls="controls">&lt;/video>&lt;/p>
+&lt;blockquote>
+&lt;p>Session 2 No glasses&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;video src="./collection_noglasses.mp4" width="800px" height="600px" controls="controls">&lt;/video>&lt;/p>
+&lt;p>The acquired iris image sequences were captured at 5~10 frames per second. The resolution of each frame was 3840x2748. The frames in which irides were completely invisible caused by blinking or squinting were thrown away. Then evenly spaced images are extracted from the processed sequence every 5 frames. On average, approximately 20 images of each subject were retained.&lt;/p>
+&lt;h3 id="statistics-of-the-dataset">&lt;strong>Statistics of the dataset&lt;/strong>&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Attributes&lt;/th>
+&lt;th align="center">The database&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Camera Type&lt;/td>
+&lt;td align="center">CASIA-LR-Cam II&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Illumination&lt;/td>
+&lt;td align="center">NIR and natural lighting sources&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Total pixel&lt;/td>
+&lt;td align="center">3840x2748&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cropped eye region&lt;/td>
+&lt;td align="center">640x480&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sessions&lt;/td>
+&lt;td align="center">Two separate sessions&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Institution of subjects&lt;/td>
+&lt;td align="center">Graduate students and staff of CASIA and TAfIRT&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Standoff distance&lt;/td>
+&lt;td align="center">1.0~1.4m&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Working mode&lt;/td>
+&lt;td align="center">Step freely within a moderate square area&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Depth of field&lt;/td>
+&lt;td align="center">ca. 20cm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>No. of subjects&lt;/td>
+&lt;td align="center">98&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>No. of Classes&lt;/td>
+&lt;td align="center">195&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>No. of Images&lt;/td>
+&lt;td align="center">3,765&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Images per class&lt;/td>
+&lt;td align="center">ca. 19&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pairs of Images&lt;/td>
+&lt;td align="center">39,418 intraclass and 7,406,312 interclass&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="mannual-annotations">&lt;strong>Mannual Annotations&lt;/strong>&lt;/h3>
+&lt;p>Each image in the dataset is manually annotated with binary maps of iris masks, inner and outer iris boundaries, upper and lower eyelids, and sclera masks shown as below.&lt;/p>
+&lt;p>&lt;img src="./annotations.png" alt="Two annotated instances in the dataset.">&lt;/p>
+&lt;h3 id="evaluation-toolkit">&lt;strong>Evaluation Toolkit&lt;/strong>&lt;/h3>
+&lt;p>
+&lt;a href="IrisStat_V3.0.rar">IrisStat_V3.0.rar&lt;/a>&lt;/p>
+&lt;p>The package of evaluation toolkit is organized as below.&lt;/p>
+&lt;pre>&lt;code>IrisIQA
+│
+└───config/
+│
+└───out/
+│
+└───utils/
+| computeMotionblur.m
+| computeSharpness.m
+| ini2struct.m
+| Integral.m
+| progressbar.m
+│ struct2ini.m
+|
+└───MotionBlur_Main.m
+│
+└───Sharpness_Main.m
+Segmentation
+│
+└───config/
+│
+└───out/
+│
+└───utils/
+| evalSeg.m
+| Hausdorff.m
+| ini2struct.m
+| progressbar.m
+| struct2ini.m
+│
+└───IrisSeg_Main.m
+Recognition
+│
+└───config/
+│
+└───out/
+│
+└───utils/
+| ACC.m
+| Bitshift.m
+| colors.mat
+| compute_iriscode_sim.m
+| compute_om_sim.m
+| compute_vector_sim.m
+| draw_CMC_curve.m
+| draw_DET_curve.m
+| EER.m
+| IdentiACC.m
+| linspecer.m
+| Merge_Multi_CMC_Curve.m
+| Merge_Multi_Det_Curve.m
+| plot_styles.mat
+| progressbar.m
+| VerfiACC.m
+│
+└───IrisRec_main.m
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>The main function of iris IQA evaluating sharpness is &lt;code>Sharpness_Main.m&lt;/code>.&lt;/li>
+&lt;li>The main function of iris segmentation evaluation is &lt;code>IrisSeg_Main.m&lt;/code>.&lt;/li>
+&lt;li>The main function of iris recognition evaluation is &lt;code>IrisRec_Main.m&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="database-organization">&lt;strong>Database Organization&lt;/strong>&lt;/h2>
+&lt;p>The database package comprises the following components organized in multiple directories.&lt;/p>
+&lt;pre>&lt;code>|
+circle_params
+| │
+| └───xxxL(R)_xx.ini
+|
+ellipse_params
+| │
+| └───xxxL(R)_xx.ini
+|
+image
+| │
+| └───xxxL(R)_xx.jpg
+|
+iris_edge
+| │
+| └───xxxL(R)_xx.png
+|
+iris_edge_mask
+| │
+| └───xxxL(R)_xx.png
+|
+iris_edge_rough
+| │
+| └───xxxL(R)_xx.png
+|
+iris_mask
+| │
+| └───xxxL(R)_xx.png
+|
+lower_eyelids_edge
+| │
+| └───xxxL(R)_xx.png
+|
+lower_eyelids_edge_rough
+| │
+| └───xxxL(R)_xx.png
+|
+pupil_edge
+| │
+| └───xxxL(R)_xx.png
+|
+pupil_edge_mask
+| │
+| └───xxxL(R)_xx.png
+|
+pupil_edge_rough
+| │
+| └───xxxL(R)_xx.png
+|
+pupil_mask
+| │
+| └───xxxL(R)_xx.png
+|
+pupil_edge_rough
+| │
+| └───xxxL(R)_xx.png
+|
+pupil_mask
+| │
+| └───xxxL(R)_xx.png
+|
+sclera_mask
+| │
+| └───xxxL(R)_xx.png
+|
+up_eyelids_edge
+| │
+| └───xxxL(R)_xx.png
+|
+up_eyelids_edge_rough
+| │
+| └───xxxL(R)_xx.png
+|
+vis_result
+| │
+| └───xxxL(R)_xx.png
+|
+vis_result_new
+| │
+| └───xxxL(R)_xx.png
+|
+imgList.txt
+&lt;/code>&lt;/pre>
+&lt;p>The file naming rule is &amp;ldquo;&lt;code>xxxL(R)_xx&lt;/code>&amp;rdquo;, where &amp;ldquo;&lt;code>xxx&lt;/code>&amp;rdquo; denotes the unique identifier of the subject, &amp;ldquo;&lt;code>L&lt;/code>&amp;rdquo; denotes left eye and &amp;ldquo;&lt;code>R&lt;/code>&amp;rdquo; denotes right eye and &amp;ldquo;&lt;code>xx&lt;/code>&amp;rdquo; denotes the index of the image in the class, e.g., &lt;code>001L_01&lt;/code>. All the filenames of the iris images and belonging classes are stored in &lt;code>imgList.txt&lt;/code>.&lt;/p>
+&lt;h2 id="copyright-note-and-contacts">&lt;strong>Copyright Note and Contacts&lt;/strong>&lt;/h2>
+&lt;p>The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the database are reserved. Any person or organization is not permitted to distribute, publish, copy, or disseminate this database. In all documents and papers that report experimental results based on this database, our efforts in constructing the database should be acknowledged such as “Portions of the research in this paper use the dataset collected by Smart Iris Recognition (SIR) group from the Chinese Academy of Sciences, Institute of Automation (CASIA)”.&lt;/p>
+&lt;p>To receive a copy of the database, a non-student researcher must manually sign the
+&lt;a href="license_agreement.pdf">License Agreement&lt;/a> and agree to observe the restrictions. The signed document should be digitized and sent through email to: &lt;a href="mailto:sir@cripac.ia.ac.cn">sir@cripac.ia.ac.cn&lt;/a>&lt;/p></description></item><item><title>CASIA-Face-Africa</title><link>https://hycasia.github.io/dataset/casia-face-africa/</link><pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/dataset/casia-face-africa/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Over the years, numerous face databases have been published that brought about exciting breakthrough in the facial biometric research field, most especially from the recent trend of deep learning contributions. However, as investigated by researchers, most of these databases are demographically imbalanced and often contain few number of African cohorts. Of those with relatively large number of the Africans, the databases are usually wild (downloaded from the internet or digitalised from printed photographs). Methods that adopt these skewed databases often exhibits some form of performance bias that can result to unintended consequences for real time applications. As such, there is need for more demographically inclusive datasets. CASIA-Face-Africa is developed to provide solution to this problem. It is an all-African database that is made to be used as a complementary database with the existing databases to balance the number of the African cohorts in the published datasets and improve their demographic inclusiveness.&lt;/p>
+&lt;h2 id="description">DESCRIPTION&lt;/h2>
+&lt;p>The database images were captured at various locations in Nigeria, Africa. About 1150 volunteers participated in the capturing exercise. The images of each subject were captured concurrently using 3 cameras. Two visible wavelength (VW) cameras and one near-infrared (NIR) camera. The capturing was done in various sessions over a period of 3 months. Some of the subjects have images captured in multiple sessions while majority of the subjects have their images captured in a single session.
+&lt;img src="1.png" alt="Figure 1">
+&lt;em>Figure 1: The cameras arrangement set-up was made to be same in all the capturing sessions&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>For each capturing instance, 3 to 10 still images were captured by each camera at a fixed time interval of 1 to 3 seconds. For some subjects, an external illumination light source was used for capturing additional images of that subjects. Also, some subjects were asked to use face accessory such as eye glasses for multiple capturing. The captured images were then organized and their land mark labelled. The organized database comprises a total of 38,546 images from 1,183 subjects. Specifically, 12,063 images captured by VW camera 1 at the resolution of 1332×1080, 13,232 images are captured by VW camera 2 at the resolution of 787 × 962, and 13,251 images are captured by NIR camera at the resolution of 983 × 877. Some samples of the captured images are shown in Figure 2, Figure 3 and Figure 4.
+&lt;img src="2.png" alt="Figure 2">
+&lt;em>Figure 2: Sample of a single subject images&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="3.png" alt="Figure 3">
+&lt;em>Figure 3: Sample of subject Expressions&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="4.png" alt="Figure 4">
+&lt;em>Figure 4: Sample of labelled face images&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="database-organization">Database Organization&lt;/h2>
+&lt;p>The database package comprises of the following components organised in multiple directories:&lt;/p>
+&lt;ul>
+&lt;li>Images folder: This contain the actual face images. Each file is named as SubjectID_ImageNumber.jpg. The SubjectID is a unique number for each subject and the ImageNumber is a sequential number for images of the same subject.&lt;/li>
+&lt;li>Subjects folder: This contain the corresponding ini files that describe the unique subjects in the images. Each file is named with the ID of the subject as SubjectID.ini.&lt;/li>
+&lt;li>Attributes folder: This contain the corresponding ini files that describes each individual face image. Each file is named with its corresponding face image name as SubjectID_ImageNumber.ini&lt;/li>
+&lt;li>Protocols folder: This contain the files named with each of the defined proposed protocols. Example of the names: ID-V-All-Ep1.ini, ID-I-Split-Ep3.ini, etc. Each of the files contains list of all the images allowed to be used for that protocol which are categorised as either Training, Testing, Target or Query as described in the database paper.&lt;/li>
+&lt;li>Codes folder: These are evaluation codes in multiple programming languages that can be used to easily adopt the database for various applications.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copyright-note-and-contacts">Copyright Note and Contacts&lt;/h2>
+&lt;p>The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the CASIA database are reserved. Any person or organization is not permitted to distribute, publish, copy, or disseminate this database. In all documents and papers that report experimental results based on this database, our efforts in constructing the database should be acknowledged such as &amp;ldquo;Portions of the research in this paper use the CASIA-Face-Africa collected by the Chinese Academy of Sciences&amp;rsquo; Institute of Automation (CASIA)&amp;quot;.&lt;/p>
+&lt;p>To receive a copy of the database, a &lt;strong>non-student researcher&lt;/strong> must &lt;strong>manually sign&lt;/strong> the
+&lt;a href="license_agreement.pdf">License Agreement&lt;/a> and agree to &lt;strong>observe the restrictions&lt;/strong>. The signed document should be &lt;strong>digitized&lt;/strong> and &lt;strong>sent through&lt;/strong> email to:
+&lt;a href="mailto://sir@cripac.ia.ac.cn">sir@cripac.ia.ac.cn&lt;/a>&lt;/p></description></item></channel></rss>

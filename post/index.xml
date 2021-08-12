@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>News | SIR-Smart Iris Recognition</title><link>https://hycasia.github.io/post/</link><atom:link href="https://hycasia.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>News</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>https://hycasia.github.io/images/icon_hu42e11727b1bd363727a38d52796c9ff5_15822_512x512_fill_lanczos_center_2.png</url><title>News</title><link>https://hycasia.github.io/post/</link></image><item><title>5 papers were accepted by IJCB2021</title><link>https://hycasia.github.io/post/ijcb2021accept/</link><pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/post/ijcb2021accept/</guid><description>&lt;p>Over the past few months, the Program Committee and Area Chairs worked very hard to review each of the 164 papers submitted to IJCB 2021. The reviewers were carefully selected and assigned papers for review in their areas of expertise. A double-blind review policy was adopted. The review process resulted in the selection of the following 66 (40.2%) highly qualified papers to be included in the Technical Program.&lt;/p>
+&lt;p>42: &lt;strong>A Large-scale Database for Less Cooperative Iris Recognition&lt;/strong>&lt;/p>
+&lt;p>44: &lt;strong>Bita-Net: Bi-temporal Attention Network for Facial Video Forgery Detection&lt;/strong>&lt;/p>
+&lt;p>87: &lt;strong>Contrastive Uncertainty Learning for Iris Recognition With Insufficient Labeled Samples&lt;/strong>&lt;/p>
+&lt;p>76: &lt;strong>An End-to-End Autofocus Camera for Iris on the Move&lt;/strong>&lt;/p>
+&lt;p>117: &lt;strong>Avoiding Spectacles Reflections on Iris Images Using A Ray-tracing Method&lt;/strong>&lt;/p></description></item><item><title>NIR Iris Challenge Evaluation in Non-cooperative Environments: Segmentation and Localization (NIR-ISL 2021)</title><link>https://hycasia.github.io/post/nir-isl2021/</link><pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/post/nir-isl2021/</guid><description>&lt;p>For iris recognition in non-cooperative environments, iris segmentation has been regarded as the first most important challenge still open to the biometric community, affecting all downstream tasks from normalization to recognition. In recent years, deep learning technologies have gained significant popularity among various computer vision tasks and have also affected the iris biometrics, especially iris segmentation. To investigate recent developments and attract more interests of researchers in the iris segmentation method, we are planning to host the challenge competition. In this challenge, we aim to benchmark the performance of iris segmentation on NIR iris images from Asian and African people captured in non-cooperative environments. Moreover, we specially split the general iris segmentation task in the conventional iris recognition pipeline into the segmentation of noise-free iris mask and the localization of inner and outer boundaries of the iris, which are narrowly referred to as iris segmentation and iris localization. Therefore, the challenge encourages the submission of a complete solution taking the iris segmentation and iris localization into consideration.&lt;/p>
+&lt;p>&lt;strong>Organisers&lt;/strong>: Dr. Caiyong Wang, Dr. Yunlong Wang, Dr. Kunbo Zhang, Jawad Muhammad, Tianhao Lu, Prof. Qichuan Tian, Prof. Zhaofeng He, Prof. Zhenan Sun&lt;/p>
+&lt;p>&lt;strong>Preferred contact person&lt;/strong>: Dr. Caiyong Wang, &lt;em>wangcaiyong at bucea.edu.cn&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Website&lt;/strong>:
+&lt;a href="https://sites.google.com/view/nir-isl2021/home" target="_blank" rel="noopener">https://sites.google.com/view/nir-isl2021/home&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Schedule&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>Registration closes: April 20, 2021
+Prediction results and technical reports submission deadline: April 20, 2021
+Results announcement: April 30, 2021
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>More Competition&lt;/strong>:
+&lt;a href="http://ijcb2021.iapr-tc4.org/competitions/" target="_blank" rel="noopener">http://ijcb2021.iapr-tc4.org/competitions/&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="result">Result&lt;/h2>
+&lt;p>ll together 30 research groups registered for NIR-ISL 2021, out of which 14 took part in the final round and submitted a total of 27 valid models for scoring.&lt;/p>
+&lt;p>According to our ranking rules, each submitted entry was assigned one ranking score per evaluation metric and set of testing data. The final ranking was then obtained by adding all 4(evaluation metrics)x5(datasets)(=20) ranking scores (rank sum). The entry with the smallest sum was placed top in the final ranking.&lt;/p>
+&lt;p>The top-3 winning solutions of NIR-ISL 2021 are:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>1st place: Lao Yang Sprint Team (Yiwen Zhang, Tianbao Liu, and Wei Yang, from School of Biomedical Engineering, Southern Medical University)&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>2nd place: SUEP-Pixsur (Dongliang Wu, Yingfeng Liu, Ruiye Zhou, and Huihai Wu, from Shanghai University of Electric Power)&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>3rd place: EyeCool (Hao Zhang, Junbao Wang, Jiayi Wang, and Wantong Xiong, from College of Science, Northeastern University)&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Congratulations to them!&lt;/strong>&lt;/p>
+&lt;p>Following are the team details and results. More details can be found in the future IJCB 2021 summary paper.&lt;/p>
+&lt;p>&lt;img src="result.png" alt="details">&lt;/p></description></item><item><title>Kunbo Zhang Wins IJCB 2020 Best Paper Award Runner-Up</title><link>https://hycasia.github.io/post/ijcb2020award/</link><pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/post/ijcb2020award/</guid><description>&lt;p>Zhang published paper,
+&lt;a href="../../publication/zhang-ijcb2020">All-in-Focus Iris Camera With a Great Capture Volume&lt;/a>, wins the PC chairs choice best paper award runner-Up at
+&lt;a href="https://ieee-biometrics.org/ijcb2020/index.html" target="_blank" rel="noopener">the 2020 International Joint Conference on Biometrics (IJCB 2020)&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="paper.png" alt="All-in-Focus Iris Camera With a Great Capture Volume">&lt;/p>
+&lt;p>The 2020 International Joint Conference on Biometrics (IJCB 2020) combines two major biometrics research conferences, the Biometrics Theory, Applications and Systems (BTAS) conference and the International Conference on Biometrics (ICB). The blending of these two conferences in 2020 is through a special agreement between the IEEE Biometrics Council and the IAPR TC-4, and should present an exciting event for the entire worldwide biometrics research community.&lt;/p>
+&lt;p>In this work, a novel all-in-focus iris imaging system is developed. It using a focus-tunable lens and a 2D steering mirror to greatly extend capture volume by spatiotemporal multiplexing method. Our iris imaging depth offield extension system requires no mechanical motion and is capable to adjust the focal plane at extremely high speed.&lt;/p>
+&lt;p>&lt;img src="camera.png" alt="all-in-focus iris imaging system">&lt;/p></description></item><item><title>MediaPipe Iris</title><link>https://hycasia.github.io/post/mediapipe-iris/</link><pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/post/mediapipe-iris/</guid><description>&lt;!--&lt;div align='center'>&lt;font size='10'>MediaPipe Iris 实时虹膜跟踪和深度估计&lt;/font>&lt;/div>
+&lt;div style='display:none'>
+标题居中
+&lt;/div>-->
+&lt;font size='5'>
+&amp;emsp;&amp;emsp;包括计算摄影（例如，人像模式和闪光反射）和增强现实效果（例如，虚拟化身）在内的大量实际应用程序都依赖于通过跟踪虹膜来估计眼睛位置。一旦获得了准确的虹膜跟踪，我们就可以确定从相机到用户的距离，而无需使用专用的深度传感器。反过来，这可以改善各种用例，从计算摄影到适当大小的眼镜和帽子的虚拟试戴，到根据视听者的距离采用字体大小的可用性增强。
+由于有限的计算资源，可变的光照条件和遮挡物（例如头发或人斜视）的存在，虹膜跟踪是在移动设备上解决的一项艰巨任务。通常，会使用复杂的专用硬件，从而限制了可在其中应用该解决方案的设备范围。
+&lt;/font>
+&lt;div align=center>
+&lt;img src="https://pic1.zhimg.com/v2-abc83ffe57801610f81c22845ec1a937_b.gif" alt="show" width="650" height="230" />
+&lt;/div>
+&lt;div align='center'>由MediaPipe Iris实现的眼睛重新着色示例&lt;/div>
+&lt;/div>
+&lt;font size='5'>
+&amp;emsp;&amp;emsp;谷歌日前发布了用于精确虹膜估计的全新机器学习模型：MediaPipe Iris。所述模型以MediaPipe Face Mesh的研究作为基础，而它无需专用硬件就能够通过单个RGB摄像头实时追踪涉及虹膜，瞳孔和眼睛轮廓的界标。利用虹膜界标，模型同时能够在不使用深度传感器的情况下以相对误差小于10％的精度确定对象和摄像头之间的度量距离。请注意，虹膜追踪不会推断人们正在注视的位置，同时不能提供任何形式的身份识别。MediaPipe是一个旨在帮助研究人员和开发者构建世界级机器学习解决方案与应用程序的开源跨平台框架，所以在MediaPipe中实现的这一系统能够支持大多数现代智能手机，PC，笔记本电脑，甚至是Web。
+&lt;div>
+&lt;div align=center>
+&lt;img src="http://p3.itc.cn/q_70/images03/20200808/b4ad6d1e27c5402c9f6752ce39d9a24a.gif" alt="show" width="240" height="270">
+&lt;/div>
+&lt;div align='center'>&lt;font size='3'>用于远视用户的可用性原型：无论距离如何、字体大小能够保持恒定&lt;/div>
+&lt;!-- 用于远视用户的可用性原型：无论距离如何、字体大小能够保持恒定-->
+&lt;p>&lt;strong>&lt;font color=#000000 size=5 face="黑体">1. 用于虹膜追踪的机器学习管道&lt;/font>&lt;/strong>&lt;/p>
+&lt;p>&lt;font size='5'>  谷歌介绍道，开发系统的第一步利用了之前针对3D Face Meshes的研究，亦即通过高保真面部界标来生成近似面部几何形状的网格。根据所述网格，研究人员分离出原始图像中的眼睛区域以用于虹膜追踪模型。然后，谷歌将问题分为两个部分：眼睛轮廓估计和虹膜位置。他们设计了一个由一元化编码器组成的多任务模型，每个组件对应一个任务，这样就能够使用特定于任务的训练数据。&lt;/p>
+&lt;div align=center>
+&lt;img src="http://p3.itc.cn/q_70/images03/20200808/462869a0c5844bc28f5c89f65479dd02.gif" alt="show" width="300" height="300"，>
+&lt;div align='center'>&lt;font size='3'>用于远视用户的可用性原型：无论距离如何、字体大小能够保持恒定&lt;/div>
+&lt;/div>
+&lt;font size='5'>&amp;emsp;&amp;emsp;为了将裁剪后的眼睛区域用于模型训练，团队手动注释了大约50万张图像。其中，图像涵盖了不同地理位置的各种照明条件和头部姿势，如下所示
+&lt;div align=center>
+&lt;img src="d07b74a8b05a4721b72eb12c1a81f383.png" alt="show" width="700" height="200"，>
+&lt;div align='center'>&lt;font size='3'>用于远视用户的可用性原型：无论距离如何、字体大小能够保持恒定&lt;/div>
+&lt;div align=center>
+&lt;img src="d9331ef1d8864e79a8288a210f869815.png" alt="show" width="700" height="260"，>
+&lt;div align='center'>&lt;font size='3'>裁剪的眼睛区域形成模型的输入，而它将通过单独的组件预测界标&lt;/div>
+&lt;p>&lt;strong>&lt;div align=left>&lt;font color=#000000 size=5 face="黑体">2. 虹膜深度：用单个图像进行深度估计&lt;/font>&lt;/strong>
+&lt;font size='5'>  无需任何专门的硬件，这个虹膜追踪模型能够以不到10％的误差确定对象到摄像头的度量距离。相关的原理事实是，人眼的水平直径虹膜基本恒定为11.7±0.5毫米。作为说明，请想象将针孔摄像头模型投影到正方形像素的传感器。你可以使用摄像头的焦距估计从面部界标到对象的距离，而这可以通过Camera Capture API或直接从捕获图像的EXIF元数据，以及其他摄像头固有参数进行获取。给定焦距，对象到摄像头的距离与对象眼睛的物理尺寸成正比，如下图所示&lt;/p>
+&lt;div align=center>
+&lt;img src="366c2353e9654a7998c87ac32c491daf.png" alt="show" width="700" height="500"，>
+&lt;div align='center'>&lt;font size='3'>利用类似的三角形，我们可以根据焦距（f）和虹膜大小来计算对象的距离（d）&lt;/div>
+&lt;div align=center>
+&lt;img src="http://p7.itc.cn/q_70/images03/20200808/0ba5001e03ca4c42a17036b97ed0326b.gif" alt="show" width="300" height="260"，>
+&lt;div align='center'>&lt;font size='3'>左边：在Pixel 2运行的MediaPipe Iris正在以cm为单位估计度量距离，没有采用任何深度摄像头；右边：groud-truth深度&lt;/div>
+&lt;div align='left'>&lt;font size='5'>&amp;emsp;&amp;emsp;为了量化所述方法的精确性，研究人员收集了200多位被试的正向同步视频和深度图像，并将其与iPhone 11的深度传感器进行比较。团队使用激光测距设备，通过实验确定iPhone 11的深度传感器在2米以内的误差小于2％。对于使用虹膜大小进行深度估算的方法，平均相对误差为4.3％，标准偏差是2.4％。谷歌对有眼镜被试和正常视力被试（不计入隐形眼镜情况）测试了所述方法，并发现眼镜会将平均相对误差略微提高到4.8％（标准偏差是3.1％）。另外，实验没有测试存在任何眼睛疾病的被试。考虑到MediaPipe Iris不需要专门的硬件，所述结果表明系统能够支持一系列成本范围的设备根据单张图像获取度量深度
+&lt;div align=center>
+&lt;img src="f49af869c2c34877a244ab791ee17b27.png" alt="show" width="500" height="420"，>
+&lt;div align='center'>&lt;font size='3'>估计误差的直方图（左边），以及实际和估计距离的比较（右边）&lt;/div>
+&lt;p>&lt;strong>&lt;div align=left>&lt;font color=#000000 size=5 face="黑体">3. 发布MediaPipe Iris&lt;/font>&lt;/strong>&lt;/p>
+&lt;div align='left'>&lt;font size='5'>&amp;emsp;&amp;emsp;这个虹膜和深度估计模型将作为支持PC，移动设备和Web的跨平台MediaPipe管道发布。正如谷歌在最近一篇关于MediaPipe的博文所述，团队利用WebAssembly和XNNPACK在浏览器中本地运行Iris ML管道，无需将任何数据发送到云端。
+&lt;div align=center>
+&lt;img src="http://p7.itc.cn/q_70/images03/20200808/6974ce3508e94a1c87418733ba3a3928.gif" alt="show" width="300" height="420"，>
+&lt;div align='center'>&lt;font size='3'>使用MediaPipe的WASM堆栈。你可以在浏览器种运行模型&lt;/div>
+&lt;div align=center>
+&lt;img src="http://p6.itc.cn/q_70/images03/20200808/ede608441d4141629bf58a576ed495ba.gif" alt="show" width="300" height="420"，>
+&lt;div align='center'>&lt;font size='3'>仅使用包含EXIF数据的单张图片计算虹膜深度&lt;/div>
+&lt;p>&lt;strong>&lt;div align=left>&lt;font color=#000000 size=5 face="黑体">4. 未来方向&lt;/font>&lt;/strong>&lt;/p>
+&lt;div align='left'>&lt;font size='5'>&amp;emsp;&amp;emsp;谷歌计划进一步扩展MediaPipe Iris模型，实现更稳定的追踪性能以降低误差，并将其部署用于无障碍用例。谷歌在相关文档和随附的Model Card中详细说明了预期的用途，限制和模型的公平性，从而确保模型的使用符合谷歌的AI原则。请注意，任何形式的监视监控都明显超出应用范围，故不予支持。团队表示：“我们希望的是，通过向广泛的研究与开发社区提供这种虹膜感知功能，从而促使创造性用例的出现，激发负责任的新应用和新研究途径。”</description></item><item><title>How does iris recognize identity successfully?</title><link>https://hycasia.github.io/post/how-does-iris-recognize-identity-successfully/</link><pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/post/how-does-iris-recognize-identity-successfully/</guid><description>&lt;p>  8月5日晚芒果台，中科院自动化研究所智能感知与计算研究中心助理研究员王云龙老师带你探索虹膜识别的奥秘&lt;/p>
+&lt;iframe frameborder="0" width="720px" height="480px" src="https://www.mgtv.com/s/9538853.html" allowFullScreen="true">&lt;/iframe></description></item><item><title>Academician introduces you to iris recognition</title><link>https://hycasia.github.io/post/academician-introduces-you-to-iris-recognition/</link><pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/post/academician-introduces-you-to-iris-recognition/</guid><description>&lt;p>  7月13日播出的CCTV-1《生活圈》节目中，谭铁牛院士现身为观众介绍了虹膜识别技术。谭铁牛院士介绍到：“虹膜识别是一种相对比较新颖的生物特征识别技术，下一步虹膜识别技术会进一步朝着移动化、便捷化以及和其他的相关的生物特征识别技术，比如人脸识别技术，相融合的方向发展，具有非常广阔的发展空间。”&lt;/p>
+&lt;iframe frameborder="0" width="720px" height="480px" src="20200713_17347661f3d_r29_800k.mp4" allowFullScreen="true">&lt;/iframe>
+&lt;/div>
+&amp;emsp;&amp;emsp;自动化所孙哲南研究员也携团队相关成果做客节目，具体讲解了虹膜识别技术的优势与应用。
+&lt;div>
+&lt;div align='center'>
+&lt;font color=#0099ff size=6 face="黑体">虹膜识别技术的优势&lt;/font>
+&lt;/div>
+&amp;emsp;&amp;emsp;虹膜识别是利用人眼表面黑色瞳孔和白色巩膜之间圆环状的区域进行身份识别的技术。虹膜识别的优势在于：
+&lt;p>  第一，虹膜先天具有非常高的唯一性。虹膜中可以发现证明至少244个独立变量来决定其唯一性，而指纹和人脸大概只有十几个或者几十个这样的变量。&lt;br>
+  第二，虹膜终身不变。年龄的增长、化妆或者整容可以改变人的容貌，却无法改变虹膜&lt;/p>
+&lt;div>
+&lt;div align='center'>
+&lt;font color=#0099ff size=6 face="黑体">虹膜识别的应用&lt;/font>
+&lt;/div>
+&lt;p>&lt;strong>&lt;font color=#000000 size=5 face="黑体">1. 虹膜识别应用于手机&lt;/font>&lt;/strong>&lt;br>
+  孙哲南研究员在节目中展示了团队研发的虹膜识别解锁手机，在手机终端装载虹膜识别模块，直接刷眼就可以解锁手机。防护镜、墨镜甚至黑暗的环境都不会成为虹膜识别的阻碍。&lt;br>
+&lt;strong>&lt;font color=#000000 size=5 face="黑体">2. 虹膜识别应用于电脑&lt;/font>&lt;/strong>&lt;br>
+  使用虹膜解锁电脑，刷眼后一瞬间即可安全登陆，省去了总是忘记密码与密码被盗的烦恼。&lt;br>
+&lt;strong>&lt;font color=#000000 size=5 face="黑体">3. 虹膜识别防盗门锁&lt;/font>&lt;/strong>&lt;br>
+  只需对准虹膜采集框，即可解锁开门。团队展示的虹膜锁采用近红外主动光源成像，即使在光线很暗的楼道内，虹膜锁也可以正常工作。&lt;br>
+&lt;strong>&lt;font color=#000000 size=5 face="黑体">4. 虹膜识别收费闸机&lt;/font>&lt;/strong>&lt;br>
+  想象一下，当我们驾车通过收费闸机时，只需要刷一下眼睛，就可以自动收费抬杆，这是一种什么样的感觉呢？将来，这一系统也可以应用于高速公路ETC中，驾驶员就可以直接通过眼神识别进行缴费。&lt;br>
+  &lt;strong>其实，虹膜识别的应用远不止这些，并且在不远的将来，它还可以在更多地方得以运用，为人们的生活提供超乎想象的便利！&lt;/strong>&lt;/p></description></item><item><title>Iris recognition is the general trend?</title><link>https://hycasia.github.io/post/iris-recognition-is-the-general-trend/</link><pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/post/iris-recognition-is-the-general-trend/</guid><description> &lt;font size='5'>
+&amp;emsp;&amp;emsp;2017年4月27日，微软获得了一项虹膜识别技术的专利，未来该技术将纳入 Windows Hello ，用于微软旗下的智能手机、笔记本等设备中。
+&lt;/font>
+&lt;div align=center>
+&lt;img src="https://blog-assets.oss-cn-shanghai.aliyuncs.com/530/4db4abc1a1c5a9ef9687e58441c419544ca22a98.gif" alt="show" />
+&lt;/div>
+&lt;font size='5'>
+&amp;emsp;&amp;emsp;虹膜识别是生物识别技术中的一种。其他的生物识别方法包括人脸、指纹、声音、视网膜、静脉识别等，而由于人类虹膜上拥有266个特征点，远高于其他生物识别技术的不到60个特征点，故被认为具有更高的精准性和安全性。
+&lt;div>
+&lt;p>&lt;font size='5'>  虹膜识别是通过数学算法对人眼虹膜特征进行编码和对比的身份识别方法。根据专利文件描述，微软的智能设备可以从两个或者三个方向照明中拍摄用户眼睛的多张照片。每个角度的眼睛照片都能检测虹膜特征并创建不同的数据点。&lt;/p>
+&lt;div align=center>
+&lt;img src="15d24fe272954868ba8649893ea5ad34633d843f.jpeg" alt="show" />
+&lt;/div>
+&lt;font size='5'>&amp;emsp;&amp;emsp;微软在其专利申请中指出，人眼是部分透明的三维结构。当光通过瞳孔传递到眼睛的视网膜上。从不同的方向用光照射眼睛，就可以获得许多图像帧的图像数据，并对至少两个图像帧的数据进行对比，找到相似的地方，获得相关的数据，这些数据与关注的眼睛区域是一致的。然后系统根据数据自动确定假眼睛的验证特点，从而用来验证真正的眼睛。</description></item></channel></rss>
