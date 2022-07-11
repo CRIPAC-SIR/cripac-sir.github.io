@@ -1,35 +1,34 @@
 ---
 # Display name
-title: Tianhao Lu
+title: Xiaofan Wang
 
 # Username (this should match the folder name)
 authors:
-- Tianhao Lu
+- Xiaofan Wang
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Engineer @ Watrix.AI
+role: M.Sc. candidate
 
 # Organizations/Affiliations
 organizations:
-- name: Hunan University of Technology
+- name: Institute of Automation, Chinese Academy of Sciences
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include gaze estimation, mobile computing and programmable matter.
 
 interests:
-- Artificial Intelligence
-- Computational Vision
-- Iris Recognition
+- Gaze Estimation
+- Computer Vision
 
 education:
   courses:
-  - course: B.E. degree in Artificial Intelligence
-    institution: Beijing Jiaotong University
-    year: 2017
+  - course: B.S. degree in Shool of Mathematical Sciences
+    institution: Beihang University
+    year: 2021
 
 
 # Social/Academic Networking
@@ -39,7 +38,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:tianhao.lu@cripac.ia.ac.cn'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:xiaofanwang@buaa.edu.cn'  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -48,12 +47,12 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "tianhao.lu@cripac.ia.ac.cn"
+email: "xiaofanwang@buaa.edu.cn"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
-#- Administration
+- Graduate Students
+#- Grad Students
 ---
-Tianhao Lu is currently pursuing the Master. degree with the Hunan University of Technology(HUT). He received B.E. degree in Beijing Jiaotong University. He is now studying for a master's degree in Hunan University of Technology. His research focuses on pattern recognition.
+Xiaofan Wang is currently pursuing the Master degree with Center for Research on Intelligent Perception and Computing (CRIPAC),National Laboratory of Pattern Recognition (NLPR), Institute of Automation, Chinese Academy of Sciences (CASIA), China. He received the B.S. degree in Shool of Mathematical Sciences, Beihang University, China, in 2021. His research focuses on biometrics, computer vision, and deep learning.
