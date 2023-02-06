@@ -346,6 +346,9 @@ imgList.txt
 &lt;/ul>
 &lt;h2 id="copyright-note-and-contacts">Copyright Note and Contacts&lt;/h2>
 &lt;p>The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the CASIA database are reserved. Any person or organization is not permitted to distribute, publish, copy, or disseminate this database. In all documents and papers that report experimental results based on this database, our efforts in constructing the database should be acknowledged such as &amp;ldquo;Portions of the research in this paper use the CASIA-Face-Africa collected by the Chinese Academy of Sciences&amp;rsquo; Institute of Automation (CASIA)&amp;quot;.&lt;/p>
-&lt;p>To receive a copy of the database, a &lt;strong>non-student researcher&lt;/strong> must &lt;strong>manually sign&lt;/strong> the
-&lt;a href="license_agreement.pdf">License Agreement&lt;/a> and agree to &lt;strong>observe the restrictions&lt;/strong>. The signed document should be &lt;strong>digitized&lt;/strong> and &lt;strong>sent through&lt;/strong> email to:
-&lt;a href="mailto://sir@cripac.ia.ac.cn">sir@cripac.ia.ac.cn&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>To receive a copy of the database, you can apply for it on our
+&lt;a href="http://www.idealtest.org/#/datasetDetail/24" target="_blank" rel="noopener">BIT website&lt;/a>&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;blockquote>
+&lt;p>[1] Muhammad Jawad, Yunlong Wang, Caiyong Wang, Kunbo Zhang, Zhenan Sun. “CASIA-Face-Africa: A Large-scale African Face Image Database,” IEEE Transactions on Information Forensics and Security (TIFS), vol.16, pp. 3634-3646, 2021.&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
