@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Ph.D. candidate
+role: Post Doc @ BNU
 
 # Organizations/Affiliations
 organizations:
@@ -51,7 +51,6 @@ email: "min.ren@cripac.ia.ac.cn"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
-#- Grad Students
+- Alumni
 ---
 Min Ren is currently pursuing the Ph.D. degree with the School of Artificial Intelligence, University of Chinese Academy of Sciences, and the Center for Research on Intelligent Perception and Computing (CRIPAC), National Laboratory of Pattern Recognition (NLPR), Institute of Automation, Chinese Academy of Sciences (CASIA), China. He received his B.E. degree in mechanical engineering and automation from National University of Defense Technology, China, in 2013. His research focuses on pattern recognition and biometrics.
