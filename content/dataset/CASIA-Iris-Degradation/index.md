@@ -63,4 +63,4 @@ More samples and annotations are presented below.
 
 The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the CASIA-Iris-Degradation database are reserved. Any person or organization is not permitted to distribute, publish, copy, or disseminate this database. In all documents and papers that report experimental results based on this database, our efforts in constructing the database should be acknowledged such as "Portions of the research in this paper use the CASIA-Iris-Degradation-V1.0 collected by the Chinese Academy of Sciences' Institute of Automation (CASIA)".
 
-To receive a copy of the database, a **non-student researcher** must **manually sign** the [License Agreement](./license_agreement.pdf) and agree to **observe the restrictions**. The signed document should be **digitized** and **sent through** email to:[sir@cripac.ia.ac.cn](mailto://sir@cripac.ia.ac.cn)
+To receive a copy of the database, you can apply for it on our [BIT website](http://www.idealtest.org/#/datasetDetail/26)

@@ -52,7 +52,7 @@ The details of the adopted database is listed in Table 1.
 
 The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the  database are reserved.
 
-E-mail: sir@cripac.ia.ac.cn
+To receive a copy of the database, you can apply for it on our [BIT website](http://www.idealtest.org/#/datasetDetail/25)
 
 ## Reference
 >[1] 宋平, 黄玲, 王云龙, 刘菲, 孙哲南. 基于计算光场成像的虹膜活体检测方法. 自动化学报, 2019, 45(9): 1701-1712. (Ping Song, Huang Ling, Wang Yunlong, Liu Fei, and Sun Zhenan. Iris liveness detection based on light field imaging. ACTA AUTOMATICA SINICA, 45(9):1701–1712, 2019.)
