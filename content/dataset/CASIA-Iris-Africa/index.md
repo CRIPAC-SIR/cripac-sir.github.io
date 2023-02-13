@@ -3,7 +3,7 @@ title: CASIA-Iris-Africa
 summary: A mainly African dataset for iris recognition.
 tags:
 - Dataset
-date: "2023-02-013T00:00:00Z"
+date: "2023-02-13T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "http://biometrics.idealtest.org/dbDetailForUser.do?id=4"
