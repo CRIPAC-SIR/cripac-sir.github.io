@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dataset | SIR-Smart Iris Recognition</title><link>https://hycasia.github.io/tag/dataset/</link><atom:link href="https://hycasia.github.io/tag/dataset/index.xml" rel="self" type="application/rss+xml"/><description>Dataset</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate><image><url>https://hycasia.github.io/images/icon_hu42e11727b1bd363727a38d52796c9ff5_15822_512x512_fill_lanczos_center_2.png</url><title>Dataset</title><link>https://hycasia.github.io/tag/dataset/</link></image><item><title>CASIA-Polar</title><link>https://hycasia.github.io/dataset/casia-polar/</link><pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/dataset/casia-polar/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dataset | SIR-Smart Iris Recognition</title><link>https://hycasia.github.io/tag/dataset/</link><atom:link href="https://hycasia.github.io/tag/dataset/index.xml" rel="self" type="application/rss+xml"/><description>Dataset</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate><image><url>https://hycasia.github.io/images/icon_hu42e11727b1bd363727a38d52796c9ff5_15822_512x512_fill_lanczos_center_2.png</url><title>Dataset</title><link>https://hycasia.github.io/tag/dataset/</link></image><item><title>CASIA-Iris-Africa</title><link>https://hycasia.github.io/dataset/casia-iris-africa/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/dataset/casia-iris-africa/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Various forms of iris databases had been published that address some specific research problems and are made available to the biometrics research community such as: constraint databases; mobile iris; multispectral; synthetics; iris at a distance; contact lenses; liveness detection; Aging, etc. However, even though these databases have addressed many of the problems mentioned above, most of them contain subjects of primarily Caucasian and Asian docents with very few Africans and many times zero Africans. It is particularly challenging as this has created a research blind spot for African cohorts in these databases. Despite many of the reported investigative studies on racial bias in face biometrics, very few iris racial bias-related studies have been published, which can be due to the insufficient number of other races databases such as the Africans. Recently, face recognition algorithms have been reported to be biased toward specific demographics. Most prominently, many investigative studies have reported higher false-positive rates in African subject cohorts than in other cohorts. Due to the unavailability of the required quantity of African cohorts in the publicly available iris databases, similar studies would be difficult to replicate on iris biometrics. We presents a mainly African dataset that can be useful in addressing some of these challenges.&lt;/p>
+&lt;h2 id="description">Description&lt;/h2>
+&lt;p>The iris images were captured in Nigeria, Africa. The capturing exercise was conducted across various locations in multiple sessions over three months. Due to logistical constraints, the capturing exercise was limited to the northern part of Nigeria. Each subject volunteer was asked to sign a consent form authorizing the data to be used for only research purposes. The iris sensor device for capturing the images is the IKUSBE30 iris sensor from IrisKing. The setup for the capturing exercise is shown in Fig. 1. Each volunteer was asked to hold the device, standing or sitting, based on their preference. As such, the iris images were captured at various degrees of head postures.&lt;/p>
+&lt;p>&lt;img src="figures/1.png" alt="Figure 1" title="Iris Capturing set-ups (indoor and outdoor)">
+Fig. 1: Iris Capturing set-ups (indoor and outdoor)&lt;/p>
+&lt;p>The procedure for image capturing is in two steps:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>Step 1: Straight Gaze Capture: In this step, the volunteer was asked to hold the sensor and gaze into its lenses while moving the eyes in small ranges to the left, right, up, or down for approximately 3 minutes. During this time, images were periodically captured automatically at constant intervals. The eye movement ensures that the iris position and orientation are highly diversified across the captured images. Samples of the captured images in this step are shown in Fig. 2 (left).&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>Step 2: Open-Close Capture: In this step, the volunteer was asked to open and close the eyes while gazing into the device for approximately 3 minutes. The iris images were automatically captured within this period. The essence of the opening and closing of the eyes is to ensure that the images contain irises of various sizes and degrees of occlusion, from fully closed eyes to half open and fully open eyes. This procedure will ultimately improve image diversity. Exemplary samples are shown in Fig. 2 (right).&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="figures/2.png" alt="Figure 2" title="Exemplary samples of captured images in Step 1 (left image) and Step 2 (right image)">
+Fig. 2: Exemplary samples of captured images in Step 1 (left image) and Step 2 (right image)&lt;/p>
+&lt;p>After the capturing sessions, the stored images were processed. The processing steps comprise automatic image selection to discard images with duplicate content, followed by manual image selection that guarantees the selected images&amp;rsquo; reliability. In the automatic selection, all the images from a single eye of one subject were organized into a matrix, with each column representing an image. The images of the subject&amp;rsquo;s eyes were then processed, and duplicates were removed using this procedure. The remaining images were then manually processed. The manual selection involves one-by-one human inspection of each image to identify damaged images and those images with no irises captured in them. Some sample images of one subject from the generated dataset are shown in Fig. 3, the labelled sampled images in Fig. 4, the summary of the database is presented in Table 1 and the database subjects&amp;rsquo; age distribution is shown in Fig. 5.&lt;/p>
+&lt;p>&lt;img src="figures/3.png" alt="Figure 3" title="Samples of one subject left iris (upper two rows) and (b) right iris (lower two rows)">
+Fig. 3: Samples of one subject left iris (upper two rows) and (b) right iris (lower two rows)&lt;/p>
+&lt;p>&lt;img src="figures/4.png" alt="Figure 4" title="Labelled iris mask, inner and outer circle superimposed on respective samples in Fig. 3 for (a) left iris (upper two rows) and (b) right iris (lower two rows)">
+Fig. 4: Labelled iris mask, inner and outer circle superimposed on respective samples in Fig. 3 for (a) left iris (upper two rows) and (b) right iris (lower two rows)&lt;/p>
+&lt;p>Tab. 1: Summary of the generated database
+&lt;img src="figures/table.png" alt="Figure 5" title="Summary of the generated database">&lt;/p>
+&lt;p>&lt;img src="figures/5.png" alt="Figure 6" title="Age distribution of the generated database">
+Fig. 5: Age distribution of the generated database&lt;/p>
+&lt;h2 id="database-organization">Database Organization&lt;/h2>
+&lt;p>The database package comprises of the following components organised in multiple directories:&lt;/p>
+&lt;ul>
+&lt;li>image folder: This contain the iris images. Each image is named with SubjectID_Eye_ImageNumber.jpg. That represents:
+&lt;ul>
+&lt;li>SubjectID: a unique number for each subject&lt;/li>
+&lt;li>Eye is a letter that can be either “L” for left eye or “R” for right eye&lt;/li>
+&lt;li>ImageNumber is a sequential number for images for the same subject&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>iris_edge folder: This contain the corresponding 1-pixel iris edge binary images&lt;/li>
+&lt;li>iris_edge_mask folder: This contain the corresponding iris binary masks of the images&lt;/li>
+&lt;li>pupil_edge folder: This contain the corresponding 1-pixel pupil edge binary images&lt;/li>
+&lt;li>pupil_edge_mask folder: This contain the corresponding pupil binary masks of the images&lt;/li>
+&lt;li>params folder: This contain the corresponding ini files that describes radius and orientation both the iris and pupil used in the generation of iris edge, iris mask, pupil edge, pupil and mask images&lt;/li>
+&lt;li>Protocols folder: This contain the files named with each of the defined proposed protocols. Each of the files contains list of all the images allowed to be used for that protocol which are categorised as either Training, Testing, Target or Query as described in the database paper.&lt;/li>
+&lt;li>Codes folder: These are evaluation codes in multiple programming languages that can be used to easily adopt the database for various applications.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copyright-and-contacts">Copyright and Contacts&lt;/h2>
+&lt;p>The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the CASIA database are reserved. Any person or organization is not permitted to distribute, publish, copy, or disseminate this database. In all documents and papers that report experimental results based on this database, our efforts in constructing the database should be acknowledged such as “Portions of the research in this paper use the CASIA-Iris-Africa collected by the Chinese Academy of Sciences’ Institute of Automation (CASIA)” and a reference to “CASIA-Iris-Africa Image Database,
+&lt;a href="http://biometrics.idealtest.org/" target="_blank" rel="noopener">http://biometrics.idealtest.org/&lt;/a>” should be included.&lt;/p></description></item><item><title>CASIA-Polar</title><link>https://hycasia.github.io/dataset/casia-polar/</link><pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/dataset/casia-polar/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>CASIA-Polar is a face anti-spoofing dataset based on polarization imaging, which takes advantage of polarization information in material classification to enable robust face anti-spoofing research.&lt;/p>
 &lt;h2 id="setup-of-dataset-collection">Setup of dataset collection&lt;/h2>
 &lt;p>The hardware system used to collect this dataset is shown in Fig.1, consists of a Lucid Phoenix PHX050S-P polarized camera equipped with Sony’s polarization sensor and a Mindvision MVGE501GC-T RGB camera.&lt;/p>
@@ -351,54 +401,4 @@ imgList.txt
 &lt;h2 id="reference">Reference&lt;/h2>
 &lt;blockquote>
 &lt;p>[1] Muhammad Jawad, Yunlong Wang, Caiyong Wang, Kunbo Zhang, Zhenan Sun. “CASIA-Face-Africa: A Large-scale African Face Image Database,” IEEE Transactions on Information Forensics and Security (TIFS), vol.16, pp. 3634-3646, 2021.&lt;/p>
-&lt;/blockquote></description></item><item><title>CASIA-Iris-Africa</title><link>https://hycasia.github.io/dataset/casia-iris-africa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hycasia.github.io/dataset/casia-iris-africa/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Various forms of iris databases had been published that address some specific research problems and are made available to the biometrics research community such as: constraint databases; mobile iris; multispectral; synthetics; iris at a distance; contact lenses; liveness detection; Aging, etc. However, even though these databases have addressed many of the problems mentioned above, most of them contain subjects of primarily Caucasian and Asian docents with very few Africans and many times zero Africans. It is particularly challenging as this has created a research blind spot for African cohorts in these databases. Despite many of the reported investigative studies on racial bias in face biometrics, very few iris racial bias-related studies have been published, which can be due to the insufficient number of other races databases such as the Africans. Recently, face recognition algorithms have been reported to be biased toward specific demographics. Most prominently, many investigative studies have reported higher false-positive rates in African subject cohorts than in other cohorts. Due to the unavailability of the required quantity of African cohorts in the publicly available iris databases, similar studies would be difficult to replicate on iris biometrics. We presents a mainly African dataset that can be useful in addressing some of these challenges.&lt;/p>
-&lt;h2 id="description">Description&lt;/h2>
-&lt;p>The iris images were captured in Nigeria, Africa. The capturing exercise was conducted across various locations in multiple sessions over three months. Due to logistical constraints, the capturing exercise was limited to the northern part of Nigeria. Each subject volunteer was asked to sign a consent form authorizing the data to be used for only research purposes. The iris sensor device for capturing the images is the IKUSBE30 iris sensor from IrisKing. The setup for the capturing exercise is shown in Fig. 1. Each volunteer was asked to hold the device, standing or sitting, based on their preference. As such, the iris images were captured at various degrees of head postures.&lt;/p>
-&lt;p>&lt;img src="figures/1.png" alt="Figure 1" title="Iris Capturing set-ups (indoor and outdoor)">
-Fig. 1: Iris Capturing set-ups (indoor and outdoor)&lt;/p>
-&lt;p>The procedure for image capturing is in two steps:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;ol>
-&lt;li>Step 1: Straight Gaze Capture: In this step, the volunteer was asked to hold the sensor and gaze into its lenses while moving the eyes in small ranges to the left, right, up, or down for approximately 3 minutes. During this time, images were periodically captured automatically at constant intervals. The eye movement ensures that the iris position and orientation are highly diversified across the captured images. Samples of the captured images in this step are shown in Fig. 2 (left).&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;ol start="2">
-&lt;li>Step 2: Open-Close Capture: In this step, the volunteer was asked to open and close the eyes while gazing into the device for approximately 3 minutes. The iris images were automatically captured within this period. The essence of the opening and closing of the eyes is to ensure that the images contain irises of various sizes and degrees of occlusion, from fully closed eyes to half open and fully open eyes. This procedure will ultimately improve image diversity. Exemplary samples are shown in Fig. 2 (right).&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="figures/2.png" alt="Figure 2" title="Exemplary samples of captured images in Step 1 (left image) and Step 2 (right image)">
-Fig. 2: Exemplary samples of captured images in Step 1 (left image) and Step 2 (right image)&lt;/p>
-&lt;p>After the capturing sessions, the stored images were processed. The processing steps comprise automatic image selection to discard images with duplicate content, followed by manual image selection that guarantees the selected images&amp;rsquo; reliability. In the automatic selection, all the images from a single eye of one subject were organized into a matrix, with each column representing an image. The images of the subject&amp;rsquo;s eyes were then processed, and duplicates were removed using this procedure. The remaining images were then manually processed. The manual selection involves one-by-one human inspection of each image to identify damaged images and those images with no irises captured in them. Some sample images of one subject from the generated dataset are shown in Fig. 3, the labelled sampled images in Fig. 4, the summary of the database is presented in Table 1 and the database subjects&amp;rsquo; age distribution is shown in Fig. 5.&lt;/p>
-&lt;p>&lt;img src="figures/3.png" alt="Figure 3" title="Samples of one subject left iris (upper two rows) and (b) right iris (lower two rows)">
-Fig. 3: Samples of one subject left iris (upper two rows) and (b) right iris (lower two rows)&lt;/p>
-&lt;p>&lt;img src="figures/4.png" alt="Figure 4" title="Labelled iris mask, inner and outer circle superimposed on respective samples in Fig. 3 for (a) left iris (upper two rows) and (b) right iris (lower two rows)">
-Fig. 4: Labelled iris mask, inner and outer circle superimposed on respective samples in Fig. 3 for (a) left iris (upper two rows) and (b) right iris (lower two rows)&lt;/p>
-&lt;p>Tab. 1: Summary of the generated database
-&lt;img src="figures/table.png" alt="Figure 5" title="Summary of the generated database">&lt;/p>
-&lt;p>&lt;img src="figures/5.png" alt="Figure 6" title="Age distribution of the generated database">
-Fig. 5: Age distribution of the generated database&lt;/p>
-&lt;h2 id="database-organization">Database Organization&lt;/h2>
-&lt;p>The database package comprises of the following components organised in multiple directories:&lt;/p>
-&lt;ul>
-&lt;li>image folder: This contain the iris images. Each image is named with SubjectID_Eye_ImageNumber.jpg. That represents:
-&lt;ul>
-&lt;li>SubjectID: a unique number for each subject&lt;/li>
-&lt;li>Eye is a letter that can be either “L” for left eye or “R” for right eye&lt;/li>
-&lt;li>ImageNumber is a sequential number for images for the same subject&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>iris_edge folder: This contain the corresponding 1-pixel iris edge binary images&lt;/li>
-&lt;li>iris_edge_mask folder: This contain the corresponding iris binary masks of the images&lt;/li>
-&lt;li>pupil_edge folder: This contain the corresponding 1-pixel pupil edge binary images&lt;/li>
-&lt;li>pupil_edge_mask folder: This contain the corresponding pupil binary masks of the images&lt;/li>
-&lt;li>params folder: This contain the corresponding ini files that describes radius and orientation both the iris and pupil used in the generation of iris edge, iris mask, pupil edge, pupil and mask images&lt;/li>
-&lt;li>Protocols folder: This contain the files named with each of the defined proposed protocols. Each of the files contains list of all the images allowed to be used for that protocol which are categorised as either Training, Testing, Target or Query as described in the database paper.&lt;/li>
-&lt;li>Codes folder: These are evaluation codes in multiple programming languages that can be used to easily adopt the database for various applications.&lt;/li>
-&lt;/ul>
-&lt;h2 id="copyright-and-contacts">Copyright and Contacts&lt;/h2>
-&lt;p>The database is released for research and educational purposes. We hold no liability for any undesirable consequences of using the database. All rights of the CASIA database are reserved. Any person or organization is not permitted to distribute, publish, copy, or disseminate this database. In all documents and papers that report experimental results based on this database, our efforts in constructing the database should be acknowledged such as “Portions of the research in this paper use the CASIA-Iris-Africa collected by the Chinese Academy of Sciences’ Institute of Automation (CASIA)” and a reference to “CASIA-Iris-Africa Image Database,
-&lt;a href="http://biometrics.idealtest.org/" target="_blank" rel="noopener">http://biometrics.idealtest.org/&lt;/a>” should be included.&lt;/p></description></item></channel></rss>
+&lt;/blockquote></description></item></channel></rss>
