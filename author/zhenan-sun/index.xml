@@ -5,7 +5,7 @@
     <link>https://nlpr-sir.github.io/author/zhenan-sun/</link>
       <atom:link href="https://nlpr-sir.github.io/author/zhenan-sun/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhenan Sun</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jun 2024 16:12:05 +0800</lastBuildDate>
     <image>
       <url>https://nlpr-sir.github.io/images/icon_hu42e11727b1bd363727a38d52796c9ff5_15822_512x512_fill_lanczos_center_3.png</url>
       <title>Zhenan Sun</title>
@@ -13,22 +13,30 @@
     </image>
     
     <item>
-      <title>Sclera-TransFuse: Fusing Vision Transformer and CNN for Accurate Sclera Segmentation and Recognition</title>
-      <link>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</guid>
+      <title>Artificial Immune System of Secure Face Recognition Against Adversarial Attacks</title>
+      <link>https://nlpr-sir.github.io/publication/ren-ijcv-2024/</link>
+      <pubDate>Wed, 26 Jun 2024 16:12:05 +0800</pubDate>
+      <guid>https://nlpr-sir.github.io/publication/ren-ijcv-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zhenan Sun</title>
       <link>https://nlpr-sir.github.io/author/zhenan-sun/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Jun 2024 16:12:05 +0800</pubDate>
       <guid>https://nlpr-sir.github.io/author/zhenan-sun/</guid>
       <description>&lt;p&gt;Zhenan Sun is currently an Professor with NLPR, MAIS, CASIA, China. He received the B.E. degree in industrial
 automation from Dalian University of Thchnology, and the M.S. degree in system engineering from Huazhong University
 of Science and Technology, and the Ph.D. degree in pattern recognition and intelligent system from CASIA in 1999, 2002, and 2006 respectively. His research focuses on biometrics and pattern recognition.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Sclera-TransFuse: Fusing Vision Transformer and CNN for Accurate Sclera Segmentation and Recognition</title>
+      <link>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</guid>
+      <description></description>
     </item>
     
     <item>

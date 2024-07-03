@@ -5,7 +5,7 @@
     <link>https://nlpr-sir.github.io/author/yunlong-wang/</link>
       <atom:link href="https://nlpr-sir.github.io/author/yunlong-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yunlong Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jun 2024 16:12:05 +0800</lastBuildDate>
     <image>
       <url>https://nlpr-sir.github.io/images/icon_hu42e11727b1bd363727a38d52796c9ff5_15822_512x512_fill_lanczos_center_3.png</url>
       <title>Yunlong Wang</title>
@@ -13,20 +13,28 @@
     </image>
     
     <item>
-      <title>Sclera-TransFuse: Fusing Vision Transformer and CNN for Accurate Sclera Segmentation and Recognition</title>
-      <link>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</guid>
+      <title>Artificial Immune System of Secure Face Recognition Against Adversarial Attacks</title>
+      <link>https://nlpr-sir.github.io/publication/ren-ijcv-2024/</link>
+      <pubDate>Wed, 26 Jun 2024 16:12:05 +0800</pubDate>
+      <guid>https://nlpr-sir.github.io/publication/ren-ijcv-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yunlong Wang</title>
       <link>https://nlpr-sir.github.io/author/yunlong-wang/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Jun 2024 16:12:05 +0800</pubDate>
       <guid>https://nlpr-sir.github.io/author/yunlong-wang/</guid>
       <description>&lt;p&gt;Yunlong Wang is currently an Associate Professor with NLPR, MAIS, CASIA, China. He received the B.E. degree and the M.S. degree in Department of Automation, University of Science and Technology of China. His reserach focuses on pattern recognition, machine learning, light field photography, and biometrics.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Sclera-TransFuse: Fusing Vision Transformer and CNN for Accurate Sclera Segmentation and Recognition</title>
+      <link>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</guid>
+      <description></description>
     </item>
     
     <item>
