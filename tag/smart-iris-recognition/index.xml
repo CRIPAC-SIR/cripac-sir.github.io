@@ -53,6 +53,22 @@
     </item>
     
     <item>
+      <title>One paper was accepted to International Joint Conference on Biometrics (IJCB 2023)</title>
+      <link>https://nlpr-sir.github.io/post/recent-published-papers-2301/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/post/recent-published-papers-2301/</guid>
+      <description>&lt;h2 id=&#34;1-sclera-transfuse-fusing-swin-transformer-and-cnn-for-accurate-sclera-segmentation&#34;&gt;1. Sclera-TransFuse: Fusing Swin Transformer and CNN for Accurate Sclera Segmentation&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Li Haiqing, Wang Caiyong, Zhao Guangzhe, He Zhaofeng, Wang Yunlong,Zhenan Sun. Sclera-TransFuse: Fusing Swin Transformer and CNN for Accurate Sclera Segmentation. seventh International Joint Conference on Biometrics (IJCB), 2023. 
+&lt;a href=&#34;https://ijcb2023.ieee-biometrics.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ijcb2023.ieee-biometrics.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;IJCB 2023&#34; src=&#34;https://nlpr-sir.github.io/post/recent-published-papers-2301/IJCB2023-pic1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sclera segmentation is a crucial step in sclera recognition, which has been greatly advanced by Convolutional Neural Networks (CNNs). However, when dealing with non-ideal eye images, many existing CNN-based approaches are still prone to failure. One major reason is that due to the limited range of receptive fields, CNNs are difficult to effectively model global semantic relevance and thus robustly resist noise interference. To solve this problem, this paper proposes a novel two-stream hybrid model, named Sclera-TransFuse, to integrate classical ResNet-34 and recently emerging Swin Transformer encoders. Specially, the self-attentive Swin Transformer has shown a strong ability in capturing long-range spatial dependencies and has a hierarchical structure similar to CNNs. The dual encoders firstly extract coarse- and fine-grained feature representations at hierarchical stages, separately. Then a novel Cross-Domain Fusion (CDF) module based on information interaction and self-attention mechanism is introduced to efficiently fuse the multi-scale features extracted from dual encoders. Finally, the fused features are progressively upsampled and aggregated to predict the sclera masks in the decoder meanwhile deep supervision strategies are employed to learn intermediate feature representations better and faster. Experimental results show that Sclera-TransFuse achieves state-of-the-art performance on various sclera segmentation benchmarks. Additionally, a UBIRIS.v2 subset of 683 eye images with manually labeled sclera masks, and our codes are publicly available to the community through 
+&lt;a href=&#34;https://github.com/Ihqqq/Sclera-TransFuse&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Ihqqq/Sclera-TransFuse&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>One paper was accepted to T-PAMI 2023 and another was accpeted to TIFS 2023</title>
       <link>https://nlpr-sir.github.io/post/recent-published-papers-23/</link>
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>

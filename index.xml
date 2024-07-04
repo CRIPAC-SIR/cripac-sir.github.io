@@ -21,6 +21,25 @@
     </item>
     
     <item>
+      <title>One paper was accepted to International Journal of Computer Vision (IJCV 2024)</title>
+      <link>https://nlpr-sir.github.io/post/recent-published-papers-2403/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/post/recent-published-papers-2403/</guid>
+      <description>&lt;h2 id=&#34;1-artificial-immune-system-of-secure-face-recognition-against-adversarial-attacks&#34;&gt;1. Artificial Immune System of Secure Face Recognition Against Adversarial Attacks&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Min Ren, Yunlong Wang, Yuhao Zhu, Yongzhen Huang, Zhenan Sun, Qi Li, Tieniu Tan. Artificial Immune System of Secure Face Recognition Against Adversarial Attacks. International Journal of Computer Vision&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2406.18144&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/2406.18144&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;ijcv-2024&#34; src=&#34;https://nlpr-sir.github.io/post/recent-published-papers-2403/IJCV-2024-pic1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Deep learning-based face recognition models are vulnerable to adversarial attacks.In contrast to general noises, the presence of imperceptible adversarial noises can lead to catastrophic errors in deep face recognition models. The primary difference between adversarial noise and general noise lies in its specificity. Adversarial attack methods give rise to noises tailored to the characteristics of the individual image and recognition model at hand. Diverse samples and recognition models can engender specific adversarial noise patterns, which pose significant challenges for adversarial defense. Addressing this challenge in the realm of face recognition presents a more formidable endeavor due to the inherent nature of face recognition as an open set task. In order to tackle this challenge, it is imperative to employ customized processing for each individual input sample. Drawing inspiration from the biological immune system, which can identify and respond to various threats, this paper aims to create an artificial immune system (AIS) to provide adversarial defense for face recognition. The proposed defense model incorporates the principles of antibody cloning, mutation, selection, and memory mechanisms to generate a distinct “antibody” for each input sample, where in the term “antibody” refers to a specialized noise removal manner. Furthermore,we introduce a self-supervised adversarial training mechanism that serves as a simulated rehearsal of immune system invasions. Extensive experimental results demonstrate the efficacy of the proposed method, surpassing state-of-the-art adversarial defense methods. The source code is available here, or you can visit this website: 
+&lt;a href=&#34;https://github.com/RenMin1991/SIDE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/RenMin1991/SIDE&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sclera-TransFuse: Fusing Vision Transformer and CNN for Accurate Sclera Segmentation and Recognition</title>
       <link>https://nlpr-sir.github.io/publication/wang-tbiom-2024-1/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
@@ -77,6 +96,22 @@
     </item>
     
     <item>
+      <title>One paper was accepted to International Journal of Computer Vision (IJCV 2024)</title>
+      <link>https://nlpr-sir.github.io/post/recent-published-papers-2401/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/post/recent-published-papers-2401/</guid>
+      <description>&lt;h2 id=&#34;1-open-vocabulary-text-driven-human-image-generation&#34;&gt;1. Open-Vocabulary Text-Driven Human Image Generation&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kaiduo Zhang, Muyi Sun, Jianxin Sun, Kunbo Zhang, Zhenan Sun, Tieniu Tan. &amp;ldquo;Open-Vocabulary Text-Driven Human Image Generation&amp;rdquo;. 2024 International Journal of Computer Vision.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-024-02079-7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://link.springer.com/article/10.1007/s11263-024-02079-7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;IJCV-2024-05&#34; src=&#34;https://nlpr-sir.github.io/post/recent-published-papers-2401/IJCV-2024-05-pic1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Generating human images from open-vocabulary text descriptions is an exciting but challenging task. Previous methods (i.e., Text2Human) face two challenging problems: (1) they cannot well handle the open-vocabulary setting by arbitrary text inputs (i.e., unseen clothing appearances) and heavily rely on limited preset words (i.e., pattern styles of clothing appearances); (2) the generated human image is inaccuracy in open-vocabulary settings. To alleviate these drawbacks, we propose a flexible diffusion-based framework, namely HumanDiffusion, for open-vocabulary text-driven human image generation (HIG). The proposed framework mainly consists of two novel modules: the Stylized Memory Retrieval (SMR) module and the Multi-scale Feature Mapping (MFM) module. Encoded by the vision-language pretrained CLIP model, we obtain coarse features of the local human appearance. Then, the SMR module utilizes an external database that contains clothing texture details to refine the initial coarse features. Through SMR refreshing, we can achieve the HIG task with arbitrary text inputs, and the range of expression styles is greatly expanded. Later, the MFM module embedding in the diffusion backbone can learn fine-grained appearance features, which effectively achieves precise semantic-coherence alignment of different body parts with appearance features and realizes the accurate expression of desired human appearance. The seamless combination of the proposed novel modules in HumanDiffusion realizes the freestyle and high accuracy of text-guided HIG and editing tasks. Extensive experiments demonstrate that the proposed method can achieve state-of-the-art (SOTA) performance, especially in the open-vocabulary setting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Boosting multi-modal ocular recognition via spatial feature reconstruction and unsupervised image quality estimation</title>
       <link>https://nlpr-sir.github.io/publication/yan-mir-2024-1/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
@@ -101,6 +136,23 @@
     </item>
     
     <item>
+      <title>One paper was accepted to The Association for the Advancement of Artificial Intelligence (AAAI 2024)</title>
+      <link>https://nlpr-sir.github.io/post/recent-published-papers-2402/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/post/recent-published-papers-2402/</guid>
+      <description>&lt;h2 id=&#34;1-learning-explicit-contact-for-implicit-reconstruction-of-hand-held-objects-from-monocular-images&#34;&gt;1. Learning Explicit Contact for Implicit Reconstruction of Hand-held Objects from Monocular Images&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Junxing Hu,Hongwen Zhang,Zerui Chen,Mengcheng Li,Yunlong Wang,Yebin Liu,Zhenan Sun. Learning Explicit Contact for Implicit Reconstruction of Hand-held Objects from Monocular Images. The Association for the Advancement of Artificial Intelligence.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2305.20089&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2305.20089&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;AAAI-2024&#34; src=&#34;https://nlpr-sir.github.io/post/recent-published-papers-2402/AAAI-2024-pic1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Reconstructing hand-held objects from monocular RGB images is an appealing yet challenging task. In this task, contacts between hands and objects provide important cues for recovering the 3D geometry of the hand-held objects. Though recent works have employed implicit functions to achieve impressive progress, they ignore formulating contacts in their frameworks, which results in producing less realistic object meshes. In this work, we explore how to model contacts in an explicit way to benefit the implicit reconstruction of hand-held objects. Our method consists of two components: explicit contact prediction and implicit shape reconstruction. In the first part, we propose a new subtask of directly estimating 3D hand-object contacts from a single image. The part-level and vertex-level graph-based transformers are cascaded and jointly learned in a coarse-to-fine manner for more accurate contact probabilities. In the second part, we introduce a novel method to diffuse estimated contact states from the hand mesh surface to nearby 3D space and leverage diffused contact probabilities to construct the implicit neural representation for the manipulated object. Benefiting from estimating the interaction patterns between the hand and the object, our method can reconstruct more realistic object meshes, especially for object parts that are in contact with hands. Extensive experiments on challenging benchmarks show that the proposed method outperforms the current state of the arts by a great margin. Our code is publicly available at 
+&lt;a href=&#34;https://junxinghu.github.io/projects/hoi.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://junxinghu.github.io/projects/hoi.html&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sensing Micro-Motion Human Patterns using Multimodal mmRadar and Video Signal for Affective and Psychological Intelligence</title>
       <link>https://nlpr-sir.github.io/publication/ru-mm-2023/</link>
       <pubDate>Fri, 27 Oct 2023 16:12:05 +0800</pubDate>
@@ -114,6 +166,22 @@
       <pubDate>Thu, 28 Sep 2023 16:12:05 +0800</pubDate>
       <guid>https://nlpr-sir.github.io/publication/haiqing-ijcb-2023/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>One paper was accepted to International Joint Conference on Biometrics (IJCB 2023)</title>
+      <link>https://nlpr-sir.github.io/post/recent-published-papers-2301/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/post/recent-published-papers-2301/</guid>
+      <description>&lt;h2 id=&#34;1-sclera-transfuse-fusing-swin-transformer-and-cnn-for-accurate-sclera-segmentation&#34;&gt;1. Sclera-TransFuse: Fusing Swin Transformer and CNN for Accurate Sclera Segmentation&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Li Haiqing, Wang Caiyong, Zhao Guangzhe, He Zhaofeng, Wang Yunlong,Zhenan Sun. Sclera-TransFuse: Fusing Swin Transformer and CNN for Accurate Sclera Segmentation. seventh International Joint Conference on Biometrics (IJCB), 2023. 
+&lt;a href=&#34;https://ijcb2023.ieee-biometrics.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ijcb2023.ieee-biometrics.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;IJCB 2023&#34; src=&#34;https://nlpr-sir.github.io/post/recent-published-papers-2301/IJCB2023-pic1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sclera segmentation is a crucial step in sclera recognition, which has been greatly advanced by Convolutional Neural Networks (CNNs). However, when dealing with non-ideal eye images, many existing CNN-based approaches are still prone to failure. One major reason is that due to the limited range of receptive fields, CNNs are difficult to effectively model global semantic relevance and thus robustly resist noise interference. To solve this problem, this paper proposes a novel two-stream hybrid model, named Sclera-TransFuse, to integrate classical ResNet-34 and recently emerging Swin Transformer encoders. Specially, the self-attentive Swin Transformer has shown a strong ability in capturing long-range spatial dependencies and has a hierarchical structure similar to CNNs. The dual encoders firstly extract coarse- and fine-grained feature representations at hierarchical stages, separately. Then a novel Cross-Domain Fusion (CDF) module based on information interaction and self-attention mechanism is introduced to efficiently fuse the multi-scale features extracted from dual encoders. Finally, the fused features are progressively upsampled and aggregated to predict the sclera masks in the decoder meanwhile deep supervision strategies are employed to learn intermediate feature representations better and faster. Experimental results show that Sclera-TransFuse achieves state-of-the-art performance on various sclera segmentation benchmarks. Additionally, a UBIRIS.v2 subset of 683 eye images with manually labeled sclera masks, and our codes are publicly available to the community through 
+&lt;a href=&#34;https://github.com/Ihqqq/Sclera-TransFuse&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Ihqqq/Sclera-TransFuse&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -238,6 +306,22 @@ Fig. 5: Age distribution of the generated database&lt;/p&gt;
       <pubDate>Mon, 16 Jan 2023 16:12:05 +0800</pubDate>
       <guid>https://nlpr-sir.github.io/publication/zhow-tcsvt-2023/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;Figure 1&#34; src=&#34;https://nlpr-sir.github.io/publication/zhow-tcsvt-2023/1.png&#34; title=&#34; The framework of AIF-LFNet&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One paper was accepted to The Association for Transactions on Circuits and Systems for Video Technology(TCSVT 2023)</title>
+      <link>https://nlpr-sir.github.io/post/recent-published-papers-2302/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/post/recent-published-papers-2302/</guid>
+      <description>&lt;h2 id=&#34;1-aif-lfnet-all-in-focus-light-field-super-resolution-method-considering-the-depth-varying-defocus&#34;&gt;1. AIF-LFNet: All-in-Focus Light Field Super-Resolution Method Considering the Depth-Varying Defocus&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shubo Zhou, Liang Hu, Yunlong Wang, Zhenan Sun, Kunbo Zhang, Xue-qin Jiang. &amp;ldquo;AIF-LFNet: All-in-Focus Light Field Super-Resolution Method Considering the Depth-Varying Defocus&amp;rdquo;. Transactions on Circuits and Systems for Video Technology&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;amp;arnumber=10018388&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10018388&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;TCSVT-2023&#34; src=&#34;https://nlpr-sir.github.io/post/recent-published-papers-2302/TCSVT-2023-pic1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As an aperture-divided computational imaging system, microlens array (MLA) -based light field (LF) imaging is playing an increasingly important role in computer vision. As the trade-off between the spatial and angular resolutions, deep learning (DL) -based image super-resolution (SR) methods have been applied to enhance the spatial resolution. However, in existing DL-based methods, the depth-varying defocus is not considered both in dataset development and algorithm design, which restricts many applications such as depth estimation and object recognition. To overcome this shortcoming, a super-resolution task that reconstructs all-in-focus high-resolution (HR) LF images from low-resolution (LR) LF images is proposed by designing a large dataset and proposing a convolutional neural network (CNN) -based SR method. The dataset is constructed by using Blender software, consisting of 150 light field images used as training data, and 15 light field images used as validation and testing data. The proposed network is designed by proposing the dilated deformable convolutional network (DCN) -based feature extraction block and the LF subaperture image (SAI) Deblur-SR block. The experimental results demonstrate that the proposed method achieves more appealing results both quantitatively and qualitatively.&lt;/p&gt;
 </description>
     </item>
     
