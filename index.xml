@@ -5,12 +5,39 @@
     <link>https://nlpr-sir.github.io/</link>
       <atom:link href="https://nlpr-sir.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Smart Individual Recognition</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jun 2024 16:12:05 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2024 16:12:05 +0800</lastBuildDate>
     <image>
       <url>https://nlpr-sir.github.io/images/icon_hu42e11727b1bd363727a38d52796c9ff5_15822_512x512_fill_lanczos_center_3.png</url>
       <title>Smart Individual Recognition</title>
       <link>https://nlpr-sir.github.io/</link>
     </image>
+    
+    <item>
+      <title>Understanding Deep Face Representation via Attribute Recovery</title>
+      <link>https://nlpr-sir.github.io/publication/ren-tifs-2024/</link>
+      <pubDate>Mon, 08 Jul 2024 16:12:05 +0800</pubDate>
+      <guid>https://nlpr-sir.github.io/publication/ren-tifs-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One paper was accepted to IEEE Transactions on Information Forensics and Security ( Early Access )</title>
+      <link>https://nlpr-sir.github.io/post/recent-published-papers-2407/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://nlpr-sir.github.io/post/recent-published-papers-2407/</guid>
+      <description>&lt;h2 id=&#34;1-understanding-deep-face-representation-via-attribute-recovery&#34;&gt;1. Understanding Deep Face Representation via Attribute Recovery&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Min Ren, Yuhao Zhu, Yunlong Wang, Yongzhen Huang, Zhenan Sun. Understanding Deep Face Representation via Attribute Recovery. IEEE Transactions on Information Forensics and Security ( Early Access )&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/10587012&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ieeexplore.ieee.org/document/10587012&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;tifs-2024&#34; src=&#34;https://nlpr-sir.github.io/post/recent-published-papers-2407/tifs-2024-pic1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Deep neural networks have proven to be highly effective in the face recognition task, as they can map raw samples into a discriminative high-dimensional representation space. However, understanding this complex space proves to be challenging for human observers. In this paper, we propose a novel approach that interprets deep face recognition models via facial attributes. To achieve this, we introduce a two-stage framework that recovers attributes from the deep face representations. This framework allows us to quantitatively measure the significance of facial attributes in relation to the recognition model. Moreover, this framework enables us to generate sample-specific explanations through counterfactual methodology. These explanations are not only understandable but also quantitative. Through the proposed approach, we are able to acquire a deeper understanding of how the recognition model conceptualizes the notion of “identity” and understand the reasons behind the error decisions made by the deep models. By utilizing attributes as an interpretable interface, the proposed method marks a paradigm shift in our comprehension of deep face recognition models. It allows a complex model, obtained through gradient backpropagation, to effectively “communicate” with humans. The source code is available here, or you can visit this website: 
+&lt;a href=&#34;https://github.com/RenMin1991/Facial-Attribute-Recovery&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/RenMin1991/Facial-Attribute-Recovery&lt;/a&gt; .&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Artificial Immune System of Secure Face Recognition Against Adversarial Attacks</title>
